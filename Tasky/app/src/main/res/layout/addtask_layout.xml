@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add title:"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etNewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add description:"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etNewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add time (hh:mm)"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etNewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set priority: press 1 for RED, 2 for YELLOW and 3 for GREEN"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etNewPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+</LinearLayout>
